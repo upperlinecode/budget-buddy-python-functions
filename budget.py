@@ -1,10 +1,10 @@
 # Define your methods here
 
 # Here's a method that's already been defined, but it's just a skeleton. It takes one argument (total) that we will pass to the function as an integer when we call it.
-# 1. Replace "pass" with code such that this function RETURNS the message "WARNING: Budget exceeded" if the total is over 100 dollars.
+# 1. Replace "return" with code such that this function RETURNS the message "WARNING: Budget exceeded" if the total is over 100 dollars.
 
 def simple_budget_checker(total):
-   pass
+   return
 
 
 # 2. Define a function called budget_checker that checks to make sure the total is less than 100 dollars.
@@ -33,7 +33,7 @@ def simple_budget_checker(total):
 #    For exemple, the code flexible_budget_checker(40, 50) should return the message "WARNING: budget exceeded by 10 dollars."
 
 def flexible_budget_checker(budget, total):
-   pass
+   return
 
 # 6. CHALLENGE: The trouble with the first four methods is that they only work for a budget of 100 dollars.
 #    The trouble with the fifth method is that it makes the test provide the budget every time.

@@ -1,8 +1,8 @@
 import budget
 
 # In this file you will be testing the different budget checker functions you wrote in the budget.py file.
-# Remember that since your methods will be RETURNING information, it will only be visible if you PRINT that return value out to the console.
-# Also, because the methods are in a different file, you must access them using dot syntax like "budget.simple_budget_checker()" to let the
+# Remember that since your functions will be RETURNING information, it will only be visible if you PRINT that return value out to the console.
+# Also, because the functions are in a different file, you must access them using dot syntax like "budget.simple_budget_checker()" to let the
 #     computer know where to find their definitions.
 
 # Here are tests for the first three functions you wrote. Uncomment them to see them in action.

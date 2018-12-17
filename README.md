@@ -32,28 +32,28 @@ If you feel ready to jump into the lab, then go for it! If you'd like a little r
 
 ## Useful Skills & Vocab
 
-### Defining versus calling methods
+### Defining versus calling functions
 
-Implementing methods in a program is a two-step process. Methods must first be defined and then they can be called.
+Implementing functions in a program is a two-step process. Functions must first be defined and then they can be called.
 
 ###### Defining
 
 ```python
-def my_test_method():
+def my_test_function():
   return "Hello! Your test has run successfully!"
 ```
 
 ###### Calling
 
 ```python
-print(my_test_method)
+print(my_test_function)
 ```
 
-If a method is never called, then your program COULD use it, but it never knows when to do so.
+If a function is never called, then your program COULD use it, but it never knows when to do so.
 
 ### Returning versus printing output
 
-We're relying on returning output when we define our methods, but we're using print statements in our tests so that those return values are visible. Remember, printed data can be seen, returned data can stored in variables or otherwise used.
+We're relying on returning output when we define our functions, but we're using print statements in our tests so that those return values are visible. Remember, printed data can be seen, returned data can stored in variables or otherwise used.
 
 For a refresher course on the difference, jump back to the <a href="https://github.com/upperlinecode/string-theory-python-methods">String Music Theory lab</a> and read over the notes on printing vs. returning.
 
@@ -65,7 +65,7 @@ Take a look at this screenshot from Disney's website:
 
 ![Disney Tickets Screenshot](DisneyTix.png)
 
-You need to know how many adults (considered 10 years old or older) and how many children (ages 3-9) will be attending. SO let's write out the definition of that method.
+You need to know how many adults (considered 10 years old or older) and how many children (ages 3-9) will be attending. SO let's write out the definition of that function.
 
 ```python
 def cost_of_disney(adults, children):
@@ -81,7 +81,7 @@ Now that we can calculate the cost of tickets, let's do that for this family:
 
 Let's assume the two smaller children are both between the ages of 3 and 9, so then this family has 6 adults and 2 children.
 
-Find the total cost by calling (and printing!) the method.
+Find the total cost by calling (and printing!) the function.
 
 ```python
 print(cost_of_disney(6, 2))
@@ -89,15 +89,15 @@ print(cost_of_disney(6, 2))
 
 ### Scope
 
-Fascinatingly, entering a method definition is kind of like entering a pocket dimension - information from within the function doesn't exist outside the method. Here's an example of BAD CODE - code that will fail as a result of improper scoping.
+Fascinatingly, entering a function definition is kind of like entering a pocket dimension - information from within the function doesn't exist outside the function. Here's an example of BAD CODE - code that will fail as a result of improper scoping.
 
-###### Variable scoped inside a method
+###### Variable scoped inside a function
 
 ```python
 def set_greeting():
   greeting = "Welcome to the program"
 
-set_greeting() # call the method to assign the string to the variable called greeting.
+set_greeting() # call the function to assign the string to the variable called greeting.
 
 print(greeting) # Since the variable called greeting was only ever defined inside the function, it's not accessible here. 
 ```
@@ -113,7 +113,7 @@ def set_greeting():
   global greeting
   greeting = "Welcome to the program"
 
-set_greeting() # call the method to assign the string to the variable called greeting.
+set_greeting() # call the function to assign the string to the variable called greeting.
 
 print(greeting) # Since we insisted the greeting variable be global instead of defaulting to local, it's now accesible from outside the function!
 ```

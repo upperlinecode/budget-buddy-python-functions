@@ -1,4 +1,4 @@
-import budget
+import budget # This first line imports the file called budget.py, and the function you're creating called simple_budget_checker() and all the others will be stored within that file.
 
 # In this file you will be testing the different budget checker functions you wrote in the budget.py file.
 # Remember that since your functions will be RETURNING information, it will only be visible if you PRINT that return value out to the console.

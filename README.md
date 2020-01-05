@@ -46,7 +46,7 @@ def my_test_function():
 ###### Calling
 
 ```python
-print(my_test_function)
+print(my_test_function())
 ```
 
 If a function is never called, then your program COULD use it, but it never knows when to do so.

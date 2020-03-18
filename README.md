@@ -1,5 +1,7 @@
 # Budget Buddy
 
+[![Run on Repl.it](https://repl.it/badge/github/upperlinecode/budget-buddy-python-functions)](https://repl.it/github/upperlinecode/budget-buddy-python-functions)
+
 ## The Goal
 
 Today we're going to write a program that can help make sure you don't ever accidentally spend too much money at the grocery store by writing a budget app.

@@ -8,7 +8,7 @@ Today we're going to write a program that can help make sure you don't ever acci
 
 A budget is a breakdown of where you plan to spend your money before you actually spend it - it can be easy to spend money on fun things the day you get your paycheck, because it feels like you have all this extra money!
 
-![Homer spends too much on donuts](SimpBudget.gif)
+![Homer spends too much on donuts](https://raw.githubusercontent.com/upperlinecode/budget-buddy-python-functions/master/SimpBudget.gif)
 
 However, it's important to remember to keep money aside for important purchases like groceries, or to save it up for something that matters to you.
 
@@ -65,7 +65,7 @@ One of the more advanced budget checkers will take two arguments. For example, i
 
 Take a look at this screenshot from Disney's website:
 
-![Disney Tickets Screenshot](DisneyTix.png)
+![Disney Tickets Screenshot](https://raw.githubusercontent.com/upperlinecode/budget-buddy-python-functions/master/DisneyTix.png)
 
 You need to know how many adults (considered 10 years old or older) and how many children (ages 3-9) will be attending. SO let's write out the definition of that function.
 
@@ -79,7 +79,7 @@ def cost_of_disney(adults, children):
 
 Now that we can calculate the cost of tickets, let's do that for this family:
 
-![Disney Family](WDW-family.jpg)
+![Disney Family](https://raw.githubusercontent.com/upperlinecode/budget-buddy-python-functions/master/WDW-family.jpg)
 
 Let's assume the two smaller children are both between the ages of 3 and 9, so then this family has 6 adults and 2 children.
 

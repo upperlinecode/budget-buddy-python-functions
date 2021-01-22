@@ -88,36 +88,3 @@ Find the total cost by calling (and printing!) the function.
 ```python
 print(cost_of_disney(6, 2))
 ```
-
-### Scope
-
-Fascinatingly, entering a function definition is kind of like entering a pocket dimension - information from within the function doesn't exist outside the function. Here's an example of BAD CODE - code that will fail as a result of improper scoping.
-
-###### Variable scoped inside a function
-
-```python
-def set_greeting():
-  greeting = "Welcome to the program"
-
-set_greeting() # call the function to assign the string to the variable called greeting.
-
-print(greeting) # Since the variable called greeting was only ever defined inside the function, it's not accessible here. 
-```
-
-#### Solutions for scope
-
-Luckily, there's an easy way to get around this. The problem is that the computer assumes any variable defined inside the function should be a local variable (inaccessible from outside the function), so we can just tell it to make the variable global (accessible from anywhere in the program) instead.
-
-###### Make the variable global
-
-```python
-def set_greeting():
-  global greeting
-  greeting = "Welcome to the program"
-
-set_greeting() # call the function to assign the string to the variable called greeting.
-
-print(greeting) # Since we insisted the greeting variable be global instead of defaulting to local, it's now accesible from outside the function!
-```
-
-In python, we write `global variableName` at the top of a function to designate it as a global variable. Note that if we have multiple functions in our program, we have to do this at the top of every one of them.

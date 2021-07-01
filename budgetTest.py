@@ -8,7 +8,7 @@ import budget # This first line imports the file called budget.py, and the funct
 # Here are tests for the first three functions you wrote. Uncomment them to see them in action.
 # Notice that they test both pass and fail cases, to make sure the functions work for any input.
 
-#print(budget.simple_budget_checker(75)) # This test should print nothing because the 75 is less than 100 dollars.
+#print(budget.simple_budget_checker(75)) # This test should print "None", to represent null or no value, because 75 is less than 100 dollars, and we haven't yet set a condition to handle this case.
 #print(budget.simple_budget_checker(120)) # This test should print a warning because 120 is more than 100 dollars.
 
 #print(budget.budget_checker(132)) # This test should print a warning because the budget has been exceeded.

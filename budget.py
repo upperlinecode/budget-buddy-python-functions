@@ -23,14 +23,14 @@ def simple_budget_checker(total):
 
 # 4. Write a function called ultimate_budget_checker that checks to make sure the total is less than 100 dollars.
 #    If the total is under that amount, let the user know how many dollars they have left to spend.
-#    If the total is over that amount, let the user know how many dollars worth of items items they need to put back.
+#    If the total is over that amount, let the user know how many dollars worth of items they need to put back.
 
 
 
 
 # 5. Below is a function called flexible_budget_checker. It hasn't been fully defined yet, but you can see it takes two arguments.
 #    It should be exactly like the ultimate_budget_checker, except it will check your total against a budget YOU enter into the function.
-#    For exemple, the code flexible_budget_checker(40, 50) should return the message "WARNING: budget exceeded by 10 dollars."
+#    For example, the code flexible_budget_checker(40, 50) should return the message "WARNING: budget exceeded by 10 dollars."
 
 def flexible_budget_checker(budget, total):
    return
